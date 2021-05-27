@@ -1,0 +1,72 @@
+size5 cost min:  950.000000
+size5 cost max:  2646.000000
+size5 cost avg:  2024.733333
+size5 nodes expanded min:  30.000000
+size5 nodes expanded max:  43.000000
+size5 nodes expanded avg:  40.266667
+size5 wall time min:  0.000965
+size5 wall time max:  0.002993
+size5 wall time avg:  0.001362
+size5 cpu time min:  0.000000
+size5 cpu time max:  0.015625
+size5 cpu time avg:  0.001042
+size6 cost min:  1615.000000
+size6 cost max:  3060.000000
+size6 cost avg:  2356.400000
+size6 nodes expanded min:  92.000000
+size6 nodes expanded max:  192.000000
+size6 nodes expanded avg:  139.800000
+size6 wall time min:  0.004986
+size6 wall time max:  0.017925
+size6 wall time avg:  0.010624
+size6 cpu time min:  0.000000
+size6 cpu time max:  0.015625
+size6 cpu time avg:  0.010417
+size7 cost min:  1718.000000
+size7 cost max:  3261.000000
+size7 cost avg:  2383.066667
+size7 nodes expanded min:  134.000000
+size7 nodes expanded max:  1100.000000
+size7 nodes expanded avg:  425.233333
+size7 wall time min:  0.024958
+size7 wall time max:  0.344329
+size7 wall time avg:  0.088760
+size7 cpu time min:  0.015625
+size7 cpu time max:  0.343750
+size7 cpu time avg:  0.088542
+size8 cost min:  1860.000000
+size8 cost max:  3334.000000
+size8 cost avg:  2540.766667
+size8 nodes expanded min:  248.000000
+size8 nodes expanded max:  3052.000000
+size8 nodes expanded avg:  1002.733333
+size8 wall time min:  0.043957
+size8 wall time max:  3.574007
+size8 wall time avg:  0.667186
+size8 cpu time min:  0.031250
+size8 cpu time max:  3.562500
+size8 cpu time avg:  0.663021
+size9 cost min:  1594.000000
+size9 cost max:  3718.000000
+size9 cost avg:  2597.000000
+size9 nodes expanded min:  286.000000
+size9 nodes expanded max:  11078.000000
+size9 nodes expanded avg:  2861.233333
+size9 wall time min:  0.139643
+size9 wall time max:  92.799499
+size9 wall time avg:  10.073064
+size9 cpu time min:  0.140625
+size9 cpu time max:  92.406250
+size9 cpu time avg:  10.025521
+size10 cost min:  1952.000000
+size10 cost max:  3872.000000
+size10 cost avg:  2966.466667
+size10 nodes expanded min:  610.000000
+size10 nodes expanded max:  20764.000000
+size10 nodes expanded avg:  5352.366667
+size10 wall time min:  0.298239
+size10 wall time max:  395.161415
+size10 wall time avg:  59.298682
+size10 cpu time min:  0.296875
+size10 cpu time max:  394.984375
+size10 cpu time avg:  58.941667

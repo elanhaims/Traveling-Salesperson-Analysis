@@ -1,0 +1,5 @@
+To run the A Star search algorithms use the command line argument: python AStar.py < (graphname)
+the file graphname should be an adjacency matrix in the same format as the project instructions specify
+
+To run the Local search algorithms use the command line argument: python LocalSearch.py < (graphname)
+the file graphname should be an adjacency matrix in the same format as the project instructions specify

@@ -1,0 +1,54 @@
+size5 cost min:  950.000000
+size5 cost max:  2646.000000
+size5 cost avg:  2024.733333
+size5 wall time min:  0.115690
+size5 wall time max:  0.169542
+size5 wall time avg:  0.126201
+size5 cpu time min:  0.093750
+size5 cpu time max:  0.171875
+size5 cpu time avg:  0.124479
+size10 cost min:  1952.000000
+size10 cost max:  3957.000000
+size10 cost avg:  2975.666667
+size10 wall time min:  0.143614
+size10 wall time max:  0.202494
+size10 wall time avg:  0.162350
+size10 cpu time min:  0.140625
+size10 cpu time max:  0.203125
+size10 cpu time avg:  0.163542
+size15 cost min:  2880.000000
+size15 cost max:  3905.000000
+size15 cost avg:  3360.100000
+size15 wall time min:  0.168581
+size15 wall time max:  0.330120
+size15 wall time avg:  0.207308
+size15 cpu time min:  0.171875
+size15 cpu time max:  0.250000
+size15 cpu time avg:  0.203646
+size20 cost min:  3218.000000
+size20 cost max:  4495.000000
+size20 cost avg:  3913.566667
+size20 wall time min:  0.205454
+size20 wall time max:  0.735035
+size20 wall time avg:  0.255677
+size20 cpu time min:  0.203125
+size20 cpu time max:  0.312500
+size20 cpu time avg:  0.238542
+size25 cost min:  3663.000000
+size25 cost max:  5053.000000
+size25 cost avg:  4497.366667
+size25 wall time min:  0.232415
+size25 wall time max:  1.203782
+size25 wall time avg:  0.330019
+size25 cpu time min:  0.234375
+size25 cpu time max:  0.468750
+size25 cpu time avg:  0.285417
+size30 cost min:  4220.000000
+size30 cost max:  5374.000000
+size30 cost avg:  4842.500000
+size30 wall time min:  0.263263
+size30 wall time max:  0.486700
+size30 wall time avg:  0.306388
+size30 cpu time min:  0.265625
+size30 cpu time max:  0.390625
+size30 cpu time avg:  0.300000
