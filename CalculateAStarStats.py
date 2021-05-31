@@ -17,6 +17,9 @@ size6 = []
 size7 = []
 size8 = []
 size9 = []
+
+sizes = []
+
 for x in range(len(lines)):
     if lines[x][0] == 5:
         size5.append(lines[x])
@@ -280,7 +283,7 @@ size9_expanded_avg = size9_expanded_avg / 30
 size9_walltime_avg = size9_walltime_avg / 30
 size9_cputime_avg = size9_cputime_avg / 30
 
-fo_new = open("Random_edges_Stats.txt", "w+")
+fo_new = open("stats_files/Random_edges_Stats.txt", "w+")
 fo_new.write(str("size5 cost min:  %f" % (size5_cost_min) + "\n"))
 fo_new.write(str("size5 cost max:  %f" % (size5_cost_max) + "\n"))
 fo_new.write(str("size5 cost avg:  %f" % (size5_cost_avg) + "\n"))

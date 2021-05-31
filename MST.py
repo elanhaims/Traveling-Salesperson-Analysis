@@ -51,7 +51,7 @@ def calc_cost(soln, graph):
 
 if __name__ == '__main__':
     size = numberOfVertices
-    mst_filename = "mst.csv"
+    mst_filename = "csv_files/mst.csv"
 
     fields = ['Size', 'Cost', 'Nodes Expanded', 'Real Time', 'CPU Time']
 

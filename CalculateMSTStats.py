@@ -332,7 +332,7 @@ size10_expanded_avg = size10_expanded_avg / 30
 size10_walltime_avg = size10_walltime_avg / 30
 size10_cputime_avg = size10_cputime_avg / 30
 
-fo_new = open("MST_Stats.txt", "w+")
+fo_new = open("stats_files/MST_Stats.txt", "w+")
 fo_new.write(str("size5 cost min:  %f" % (size5_cost_min) + "\n"))
 fo_new.write(str("size5 cost max:  %f" % (size5_cost_max) + "\n"))
 fo_new.write(str("size5 cost avg:  %f" % (size5_cost_avg) + "\n"))

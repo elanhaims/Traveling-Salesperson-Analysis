@@ -50,9 +50,9 @@ simulated_annealing_tsp = Search.TSP_problem(all_cities, graph_dict)
 
 if __name__ == '__main__':
     size = numberOfVertices
-    hill_climbing_filename = "hill_climbing.csv"
-    simulated_annealing_filename = "simulated_annealing.csv"
-    genetic_algorithm_filename = "genetic_algorithm.csv"
+    hill_climbing_filename = "csv_files/hill_climbing.csv"
+    simulated_annealing_filename = "csv_files/simulated_annealing.csv"
+    genetic_algorithm_filename = "csv_files/genetic_algorithm.csv"
 
 
     fields = ['Size', 'Cost', 'Real Time', 'CPU Time']

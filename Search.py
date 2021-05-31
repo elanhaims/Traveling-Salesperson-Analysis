@@ -4,6 +4,7 @@ import numpy
 import math
 from collections import deque
 
+
 from utils import *
 
 """ CITATIONS
@@ -66,8 +67,6 @@ class Problem:
 
 
 # ______________________________________________________________________________
-
-
 class Node:
     """A node in a search tree. Contains a pointer to the parent (the node
     that this is a successor of) and to the actual state for this node. Note
@@ -271,7 +270,6 @@ class PrimGraph():
 
         return self.add_cost(parent)
 
-
 class GraphProblem(Problem):
     """The problem of searching a graph from one node to another."""
 
@@ -283,6 +281,7 @@ class GraphProblem(Problem):
 
     def nodes_expanded(self):
         return self.expanded_nodes
+
 
     def actions(self, A):
         """The actions at a graph node are just its neighbors."""
@@ -304,9 +303,11 @@ class GraphProblem(Problem):
         """The result of going to a neighbor is just that neighbor."""
         return action
 
+
     def path_cost(self, cost_so_far, A, action, B):
         length = len(B)
         return cost_so_far + self.graph.get(B[length-2], B[length-1])
+
 
     def find_min_edge(self):
         """Find minimum value of edges."""
@@ -316,6 +317,7 @@ class GraphProblem(Problem):
             m = min(m, local_min)
 
         return m
+
 
     def h(self, node):
         """h function is straight-line distance from a node's state to goal."""
@@ -347,7 +349,6 @@ class GraphProblem(Problem):
                         index = random.randrange(0, self.goal)
                     cost = cost + self.adjmatrix[i][index]
             return cost
-
 
     def cheapest_edges(self, A):
         cost = 0
@@ -389,7 +390,6 @@ class GraphProblem(Problem):
         g.graph = adjmatrix
         cost = g.primMST()
         return cost
-
 
 class TSP_problem(Problem):
 
@@ -485,7 +485,6 @@ def simulated_annealing(problem, schedule=exp_schedule()):
         if delta_e > 0 or probability(math.exp(delta_e / T)):
             current = next_choice
 
-
 def best_first_graph_search(problem, f, display=False):
     """Search the nodes with the lowest f scores first.
     You specify the function f(node) that you want to minimize; for example,
@@ -494,7 +493,7 @@ def best_first_graph_search(problem, f, display=False):
     There is a subtlety: the line "f = memoize(f, 'f')" means that the f
     values will be cached on the nodes as they are computed. So after doing
     a best first search you can examine the f values of the path returned."""
-    f = memoize(f, 'f')
+    #f = memoize(f, 'f')
     node = Node(problem.initial)
     frontier = PriorityQueue('min', f)
     frontier.append(node)
